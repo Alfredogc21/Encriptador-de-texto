@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F3F5FC;
+    font-family: "Inter", sans-serif;
+}
+
+.logo{
+    width: 120px;
+    height: 48px;
+    position: relative;
+    margin: 40px 40px 40px;
+}
+
+.container-text{
+    width: 60%;
+    position: absolute;
+    height: 70%;
+    left: 15%;
+}
+
+.text{
+    height: 75%;
+    width: 80%;
+    font-size: 32px;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    border: none;
+    outline: none;
+}
+
+.caution{
+    position: absolute;
+    top: 80%;
+    color: #495057;
+    opacity: 80%;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.container-bottons{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    top: 80%;
+    padding: 10px;
+    gap: 8px;
+}    
+
+.button-click{
+    color:#FFFFFF;
+    background: #0A3871;
+    font-size: 1.5rem;
+    width: 45%; 
+    height: 60px;
+    border-radius: 15px;
+    margin: 60px auto;
+}
+
+.button-click:nth-of-type(2){
+    color:#0A3871;
+    background: #D8DFE8;
+}
+
+.button-click:hover{
+    background: #07274f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-click:hover:nth-of-type(2){
+    background: #C4D2E7;
+    color: #0A3871;
+}
+
+.encrypted-message{
+    display: block;
+    width: 27%;
+    height: 90%;
+    top: 5%;
+    left: 70%;
+    position: absolute;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.1);;
+}
+
+.img-no-text{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+h2{
+    height: 10%;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 60%;
+    color: #0A3871;
+    font-weight: bold;
+}
+
+.message{
+    font-size: 16px;
+    text-align: center;
+    /*position: relative;*/
+    top: 60%;
+    padding: 5px;
+    color: #495057;
+}
+
+.button-copy{
+    display: block;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 16px;
+    width: 80%; 
+    height: 60px;
+    border-radius: 24px;
+    border-width: 1px;
+    color:#0A3871;
+    background: #FFFFFF;
+}
+
+.button-copy:hover{
+    background: #D8DFE8;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1020px){
+    .container-text{
+        width: 80%;
+        position: absolute;
+        height: 40%;
+        left: 15%;
+    }
+    .text{
+        height: 70%;
+    }
+    
+    .encrypted-message{
+        width: 80%;
+        height: 40%;
+        top: 55%;
+        left: 10%;
+        /*position: fixed;*/
+    }
+
+    .img-no-text{
+        width: 0%;
+    }
+    h2{
+        height: 10%;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        top: 10%;
+        color: #343A40;
+        font-weight: bold;
+    }
+    .message{
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        top: 20%;
+        padding: 5px;
+        color: #495057;
+    }
+    .button-copy{
+        top: 20rem;
+    }
+        
+}
+
+@media screen and (max-width:700px){
+    .logo{
+        margin: 10px 10px 10px;
+    }
+    .img-logo{
+        width: 60%;
+        height: 10%;
+    }
+    .container-text{
+        width: 80%;
+        position: absolute;
+        height: 40%;
+        left: 15%;
+    }
+    .text{
+        height: 70%;
+    }
+
+    .encrypted-message{
+        width: 80%;
+        height: 40%;
+        top: 55%;
+        left: 10%;
+    }
+
+    .img-no-text{
+        width: 0%;
+    }
+    h2{
+        height: 10%;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        top: 10%;
+        color: #343A40;
+        font-weight: bold;
+    }
+    .message{
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        top: 20%;
+        padding: 5px;
+        color: #495057;
+    }
+    .button-copy{
+        top: 75%;
+    }        
+}
+
